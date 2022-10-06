@@ -1,0 +1,28 @@
+.container {
+  // Breakpoints:
+  //   1. Mobile - 480px
+  //   1. Tablet - 768px
+  //   1. Desctop - 480px
+
+  //  ==========  Mobile screen  ==========
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
+
+  //   width: 1200px;
+}

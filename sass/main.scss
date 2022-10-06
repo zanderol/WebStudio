@@ -3,11 +3,14 @@
 
 // Index page
 @import './components/base';
+@import './components/container';
+@import './components/section';
 
 @import './components/header';
+@import './components/mobile-menu';
 @import './components/buttons';
 @import './components/logo';
-@import './components/socials-icons';
+@import './components/socials';
 @import './components/footer';
 @import './components/subscribe';
 @import './components/modal-window';
