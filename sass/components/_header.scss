@@ -36,6 +36,10 @@
     padding-top: 32px;
     padding-bottom: 32px;
   }
+  &:hover,
+  &:focus {
+    color: var(--main-blue);
+  }
 }
 
 // .header-contacts__item:not(:last-child) {
@@ -94,7 +98,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    flex-wrap: wrap;
+    flex-direction: column;
     margin-left: auto;
     justify-content: center;
 
@@ -105,6 +109,7 @@
   }
 
   @media screen and (min-width: 1200px) {
+    flex-direction: row;
     gap: 50px;
   }
 }

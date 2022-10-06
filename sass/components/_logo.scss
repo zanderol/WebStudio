@@ -10,6 +10,7 @@
   @media screen and (max-width: 1199px) {
     justify-content: center;
     padding: 26px 0 26px 15px;
+    margin-right: 88px;
   }
 
   @media screen and (max-width: 767px) {
@@ -25,5 +26,6 @@
 
 .footer-content .main-logo-link {
   margin-right: 0;
+  padding: 0;
   color: var(--main-white);
 }
