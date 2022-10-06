@@ -53,6 +53,10 @@
   text-align: center;
   padding-top: 118px;
   padding-bottom: 118px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
 
 .hero__title {
@@ -74,7 +78,5 @@
     line-height: 1.36;
     margin: 0 auto 40px auto;
     max-width: 696px;
-    padding-top: 200px;
-    padding-bottom: 200px;
   }
 }
